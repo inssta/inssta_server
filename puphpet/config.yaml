@@ -30,8 +30,8 @@ vagrantfile:
         post_up_message: ''
     ssh:
         username: root
-        private_key_path: ~/.ssh/id_rsa
-        public_key_path: null
+        private_key_path: /root/.ssh/id_rsa
+        public_key_path: /root/.ssh/id_rsa.pub
 server:
     install: '1'
     packages:
