@@ -29,7 +29,7 @@ vagrantfile:
                 target: /var/www
         post_up_message: ''
     ssh:
-        username: inssta
+        username: root
         private_key_path: ~/.ssh/id_rsa
         public_key_path: null
 server:
